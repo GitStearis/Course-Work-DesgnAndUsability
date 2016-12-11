@@ -1,0 +1,174 @@
+.header
+{
+	width: 100%;
+	height: 38em;
+
+    background-image: url(../images/server.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-caption-container
+{
+    padding-top: 12.5em;
+
+    width: 100%;
+    height: 38em;
+
+    text-align: center;
+    background-color: rgba(68, 68, 68, 0.8);
+}
+.top-caption
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(234, 234, 219);
+    font-size: 300%;
+    line-height: 2em;
+    font-weight: 500;
+}
+.smallcaption
+{
+    font-family: "Century Gothic";
+	color: rgb(224, 224, 209);
+    font-size: 150%; 
+    line-height: 1.3333333333333;
+    font-weight: 100;
+}
+
+.void
+{
+	display: block;
+	width: 100%;
+	height: 4em;
+}
+.void-dark
+{
+	display: block;
+	width: 100%;
+	height: 4em;
+    background-color: rgba(27, 84, 96, 0.9);
+}
+.wrapper
+{
+	text-align: center;
+	margin-top: 4em;
+	padding: 1em;
+    background-color: rgba(232, 232, 219, 0.9);
+    border-radius: 1em;
+}
+.section-news
+{
+	width: 100%;
+	height: 25em;
+
+    background-image: url(../images/meetup.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-grey
+{
+	width: 100%;
+	background: linear-gradient(to top, rgb(212, 212, 199), rgba(232, 232, 219, 0.9)); 
+}
+.section-white
+{
+	width: 100%;
+	background-color: white;
+}
+
+.footer
+{
+	width: 100%;
+	height: 20em;
+	background-color: rgba(61, 150, 158, 1);
+}
+.footer-element
+{
+	width: 100%;
+	text-align: center;
+}
+.footer-a
+{
+    font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+    color: rgb(222, 222, 209);
+    font-size: 90%;
+    line-height: 3em;
+    text-decoration: none;
+    font-style: normal;
+    outline: 0;
+}
+.footer-a:hover
+{
+    color: white;
+}
+.footer-a:visited
+{
+    color: rgb(212, 202, 199);
+}
+.footer-p
+{
+    font-family: "Century Gothic", Helvetica, Arial, sans-serif;
+    color: rgb(222, 222, 209);
+    text-align: center;
+    text-indent: 0;
+    line-height: 3em;
+    font-size: 90%;
+    font-style: normal;
+    font-weight: 100;
+}
+.footer-sitemap
+{
+	text-align: center;
+	padding: 3em;
+}
+.footer-logo-container
+{
+	padding: 3em;
+	width: 100%;
+	text-align: center;
+}
+
+
+.students-timetable-image
+{
+	width: 100%;
+	height: 125em;
+
+    background-image: url(../images/library.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) 
+{
+	.footer
+	{
+	width: 100%;
+	height: 41em;
+	background-color: rgba(61, 150, 158, 1);
+	}
+	.img-mobile
+	{
+		width:100%;
+		height:100%;
+	}
+	.students-timetable-image
+	{
+	height: 50em;
+	}
+	.void
+	{
+		height: 2em;
+	}
+	.header
+	{
+	height: 32em;
+	}
+	.top-caption-container
+	{
+    height: 32em;
+	}
+}
